@@ -6,7 +6,8 @@
   </picture>
 </div>
 
-# Klipper: better speed adjust!
+# Better speed adjustments for Klipper
+
 Individually adjust speeds for walls, infill, support and more!
 
 Currently works with Cura, please add support for other slicers!
@@ -59,7 +60,7 @@ DISABLE_CUSTOM_SPEEDS
 
 ## Installation
 
-#### Install gcode macros
+### Install gcode macros
 
 Include [`betterspeedadjust.cfg`](./betterspeedadjust.cfg) in your printer config.
 There are multiple ways, I have the file in `macros/`
@@ -69,7 +70,7 @@ If you don’t already know what to do, download [`betterspeedadjust.cfg`](./bet
 upload it to your printer’s config directory and include it by
 putting `[include betterspeedadjust.cfg]` into your `printer.cfg`.
 
-#### Configure Cura
+### Configure Cura
 
 In Cura, go to `Extensions` > `Post Processing` > `Modify G-Code`
 and add a new script `Search and Replace`:
