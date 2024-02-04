@@ -14,7 +14,7 @@ Currently works with Cura, please add support for other slicers!
 Supported line types:
 
 - infill (TYPE_FILL)
-- skin (TYPE_SKIN) (-> first/last few layers)
+- skin (TYPE_SKIN) (first/last few layers)
 - skirt (TYPE_SKIRT) (also brim/raft)
 - support (TYPE_SUPPORT)
 - wall_inner (TYPE_WALL_INNER)
