@@ -29,7 +29,7 @@ Any unknown line types should only result in a warning `Unknown command`.
 This script utilizes the `;TYPE:` comment by Cura.
 The comments are replaced with `TYPE_` to make them a macro call.
 
-Then, a macro `SET_SPEEDS` is called by the user to set the speed for each line type.
+The macro `SET_SPEEDS` is called by the user to set the speed for each line type.
 While printing, the `TYPE_` macros set `M220` to the corresponding speed.
 
 **IMPORTANT: once you set one of the speeds, DO NOT USE M220,
@@ -43,7 +43,7 @@ The macro UI of your klipper/moonraker frontend is probably the most intuitive o
 **Speeds are in percent!**
 
 > [!TIP]
-> hiding the `TYPE_` macros will prevent clutter.
+> Hide the `TYPE_` macros to prevent clutter.
 
 ### in terminal
 
