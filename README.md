@@ -46,7 +46,7 @@ The macro UI of your klipper/moonraker frontend is probably the most intuitive o
 
 ### in terminal
 
-```gcode
+```
 ; to get current speeds
 SET_SPEEDS
 
